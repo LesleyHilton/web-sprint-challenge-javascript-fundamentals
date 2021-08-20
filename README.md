@@ -24,15 +24,53 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
+
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
+
+.map 
+
+Use map when you are converting data. It returns a brand new array, it does not manipulate the original array. The song says:
+
+"If you use a map
+To return all your all your values back
+With a bit of a transform
+You'll return them as a pack"
+
+.reduce Does not return a new array. It returns a single value. It's used for multiplication and division. Can be used for anything.
+
+"Finally, reduce
+Is the perfect thing to use
+When you want a single output
+like a recipe for juice"
+
+
+.filter Use when you want to filter data that can be true or false. If it is true it goes in the new array. If it's false it is not included. It returns a new array & doesn't manipulate the original. It requires a return statement. \
+
+"If you've got a few
+But only some values pass as true
+You can use a filter
+To return the ones that do"
+
 
 2. Explain the difference between a callback and a higher order function.
 
+Higher order functions receive callback functions; callbacks are passed into higher order functions as arguments.
+
+
 3. Explain what a closure is.
+
+Closure is when the function has to reach outside of itself to find the variable or array it seeks.
 
 4. Describe the four principles of the 'this' keyword.
 
+This will bind to the window if not given any context.
+Implicit binding is what's to the left of the dot.
+Explicit binding is call, apply, or bind.
+New binding is when a function is imvoked with the "new" keyword; it points to the new object that's created.
+
 5. Why do we need super() in an extended class?
+
+Extends means the object is the child of the previous object, and therefore inherits everything its parent had. Super is a way of giving other properties to the object, a favorite toy, for example.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
